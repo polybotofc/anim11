@@ -3323,9 +3323,9 @@ ZombieFEAnim_Button.MouseButton1Click:Connect(function()
 	StopAnim()
 	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16738333868"
 	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=16738334710"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=3489174223"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891633237"
 	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
 	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
 	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
 	plr.Character.Humanoid:ChangeState(3)
