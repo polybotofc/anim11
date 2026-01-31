@@ -1,5 +1,5 @@
 --RELOAD GUI
-if game.CoreGui:FindFirstChild("SysBroker") then
+if game.CoreGui:FindFirstChild("SysBroker2") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
@@ -3568,4 +3568,5 @@ end)
 
 SendNotify("System Broken","Gui developed by MalwareHub - Discord in your clipboard",10)
 setclipboard("https://discord.gg/RkhpySwNR9")
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
